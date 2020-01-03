@@ -30,26 +30,20 @@
     justify-content: flex-end;
     color: white;
     letter-spacing: -9px;
-
-
   }
 }
-
 
 .bottom-container {
   display: flex;
 }
 
-
-
 .secondary-container {
-  .secondary {
+  .secondary-btn {
     width: 90px;
     height: 97px;
     margin: 0px 6px -1px -8px;
     font-size: 58px;
         border: none;
-        //background: #a6a6a6;
         background: rgba(50,30, 0, 0.64);
         color: white;
         padding-right: 3px;
@@ -57,13 +51,13 @@
         display: flex;
         display: table-row;
   }
-  .secondary:active {
+  .secondary-btn:active {
     background: white;
   }
 }
 
 .number-container {
-  .input-number {
+  .number-btn {
     width: 90px;
     height: 100px;
     margin: 0px 6px -1px -8px;
@@ -72,10 +66,9 @@
     border: none;
     color: white;
   }
-  .input-number:active {
+  .number-btn:active {
     background: white;
   }
-
   .zero {
     width: 178px;
     padding-left: 52px;
@@ -94,5 +87,8 @@
     font-size: 60px;
     margin: 2px -34px 0px 0px;
     border: none;
+  }
+  .accent-btn:active {
+    background: white;
   }
 }
