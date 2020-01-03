@@ -17,6 +17,13 @@
   }
 }
 
+/* Tablet Styles */
+@media only screen and (min-width: 432px) and (max-width: 960px) {
+  .container {
+    width: 50%;
+  }
+}
+
 .output-container {
   display: flex;
   .output-display {
